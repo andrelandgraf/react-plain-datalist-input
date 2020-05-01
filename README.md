@@ -8,9 +8,7 @@ This is the plain component without any styling. In most cases you want to use [
 
 ## Why the plain version?
 
-Use the plain component to allow server-side rendering. I was having issues using this component server-side (e.g. in a gatsby page) since the css & js was minified together into one file. 
-
-Use this package, if you want to use the package react-datalist-input on a ssr compatible application. 
+Use this version of the package [react-datalist-input](https://github.com/andrelandgraf/react-datalist-input/) to allow server-side rendering. I was having issues using the package server-side (e.g. in a gatsby page) since the css & js was minified together in one file. 
 
 ## How to style this component?
 
@@ -22,20 +20,20 @@ Check it out on [my personal website](https://andre-landgraf.cool/uses)!
 
 ## Feedback
 
-Feel free to get inspired and more importantly please provide [your feedback](https://github.com/andrelandgraf/plain-react-datalist-input/issues) on structure and style.
+Feel free to get inspired and more importantly please provide [your feedback](https://github.com/andrelandgraf/react-plain-datalist-input/issues) on structure and style.
 
 ## Installation
 
 ### Installation via npm
 
 ```
-npm install plain-react-datalist-input --save
+npm install react-plain-datalist-input --save
 ```
 
 ### Basic Usage
 
 ```
-import DataListInput from 'plain-react-datalist-input';
+import DataListInput from 'react-plain-datalist-input';
 
 /**
  * OPTIONAL, this packages comes with a simple default label matching function

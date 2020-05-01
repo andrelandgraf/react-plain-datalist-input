@@ -1,5 +1,5 @@
 {
-  "name": "plain-react-datalist-input",
+  "name": "react-plain-datalist-input",
   "version": "1.0.0",
   "description": "This package provides a react component as follows: an input field with a drop down menu to pick a possible option based on the current input.",
   "main": "./lib/DataListInput.js",

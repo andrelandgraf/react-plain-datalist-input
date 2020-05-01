@@ -1,4 +1,4 @@
-declare module 'plain-react-datalist-input' {
+declare module 'react-plain-datalist-input' {
 
     import * as React from 'react';
 
