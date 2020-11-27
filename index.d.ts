@@ -1,4 +1,4 @@
-declare module 'react-plain-datalist-input' {
+declare module 'react-datalist-input' {
 
     import * as React from 'react';
 
@@ -18,14 +18,16 @@ declare module 'react-plain-datalist-input' {
         dropdownClassName?: string;
         requiredInputLength?: number;
         clearInputOnSelect?: boolean;
+        clearInputOnClick?: boolean;
         suppressReselect?: boolean;
         dropDownLength?: number;
-        initialValue?: string;
+        value?: string;
         onDropdownOpen?: () => void;
         onDropdownClose?: () => void;
         debounceTime?: number;
         debounceLoader?: React.ReactNode;
         onInput?: (inputValue: string) => void;
+        onClick?: (inputValue: string) => void;
     }
 
     export default class DataListInput extends React.Component<DataListInputProperties> {
