@@ -1,3 +1,11 @@
+# DEPRECATED
+
+## This package is no longer maintained!
+
+[react-datalist-input](https://www.npmjs.com/package/react-datalist-input) now works with server-side rendering. So the plain version is no longer required. Please have a look at the [react-datalist-input](https://www.npmjs.com/package/react-datalist-input) documentation to learn how to use it.
+
+# react-plain-datalist-input
+
 ## Info
 
 This package provides a single react component. The component contains an input field with a drop down menu to pick a possible option based on the current input as a react component.
